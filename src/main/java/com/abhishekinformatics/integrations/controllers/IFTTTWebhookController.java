@@ -47,6 +47,7 @@ public class IFTTTWebhookController {
 				.getLightCommandFromDeviceDataPoints(deviceInfo.getStatus(), objectMapper);
 		logger.info("Testing deviceDataPoint conversion to Light command {}", lightDeviceCommand);
 		lightDeviceCommand.setSwitchLed(true);
+		lightDeviceCommand.setWorkMode("scene");
 		tuyaLightControlService.sendDeviceCommandWithDeviceId("70087286f4cfa2e73bf8",
 				TuyaDeviceCommandUtils.getDeviceCommandFromLightCommandVo(lightDeviceCommand, objectMapper));
 	}
