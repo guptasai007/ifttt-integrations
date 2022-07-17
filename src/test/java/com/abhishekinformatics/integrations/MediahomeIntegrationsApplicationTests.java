@@ -1,10 +1,10 @@
-package com.abhishekinformatics.iftttintegrations;
+package com.abhishekinformatics.integrations;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IftttIntegrationsApplicationTests {
+class MediahomeIntegrationsApplicationTests {
 
 	@Test
 	void contextLoads() {
