@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.connectors;
+package com.abhishekinformatics.integrations.tuya.connectors;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.abhishekinformatics.integrations.tuyaintegrations.services.constants.TuyaIntegrationConstants;
+import com.abhishekinformatics.integrations.tuya.constants.TuyaIntegrationConstants;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

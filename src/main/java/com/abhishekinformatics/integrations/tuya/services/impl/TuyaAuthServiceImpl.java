@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.services.impl;
+package com.abhishekinformatics.integrations.tuya.services.impl;
 
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
@@ -13,9 +13,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 
-import com.abhishekinformatics.integrations.tuyaintegrations.connectors.TuyaAPIConnector;
-import com.abhishekinformatics.integrations.tuyaintegrations.services.TuyaAuthService;
-import com.abhishekinformatics.integrations.tuyaintegrations.services.constants.TuyaIntegrationConstants;
+import com.abhishekinformatics.integrations.tuya.connectors.TuyaAPIConnector;
+import com.abhishekinformatics.integrations.tuya.constants.TuyaIntegrationConstants;
+import com.abhishekinformatics.integrations.tuya.services.TuyaAuthService;
 import com.fasterxml.jackson.databind.JsonNode;
 
 @Service

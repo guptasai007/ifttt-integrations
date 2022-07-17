@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.services.impl;
+package com.abhishekinformatics.integrations.tuya.services.impl;
 
 import java.util.Collections;
 import java.util.Map;
@@ -12,13 +12,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 
-import com.abhishekinformatics.integrations.tuyaintegrations.connectors.TuyaAPIConnector;
-import com.abhishekinformatics.integrations.tuyaintegrations.dtos.TuyaDeviceCommand;
-import com.abhishekinformatics.integrations.tuyaintegrations.dtos.TuyaDeviceInfo;
-import com.abhishekinformatics.integrations.tuyaintegrations.dtos.TuyaLightDeviceInfo;
-import com.abhishekinformatics.integrations.tuyaintegrations.services.TuyaAuthService;
-import com.abhishekinformatics.integrations.tuyaintegrations.services.TuyaDeviceControlService;
-import com.abhishekinformatics.integrations.tuyaintegrations.services.constants.TuyaIntegrationConstants;
+import com.abhishekinformatics.integrations.tuya.connectors.TuyaAPIConnector;
+import com.abhishekinformatics.integrations.tuya.constants.TuyaIntegrationConstants;
+import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceCommand;
+import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceInfo;
+import com.abhishekinformatics.integrations.tuya.services.TuyaAuthService;
+import com.abhishekinformatics.integrations.tuya.services.TuyaDeviceControlService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -49,7 +48,7 @@ public class TuyaLightDeviceControlServiceImpl implements TuyaDeviceControlServi
 		logger.info(marker, "Getting smart light device info for deviceId {}", deviceId);
 		Map<String, String> requestURIParam = Collections.singletonMap(TuyaIntegrationConstants.DEVICE_ID_URI_PARAM, deviceId);
 		TuyaDeviceInfo deviceInfo = apiConnector.fetchTuyaAPIResponse(deviceInfoEndpointPath, HttpMethod.GET,
-				requestURIParam, null, accessToken, TuyaLightDeviceInfo.class, "device info");
+				requestURIParam, null, accessToken, TuyaDeviceInfo.class, "device info");
 		logger.info(marker, "Received device info for deviceId {} successfully\n{}", deviceInfo);
 		return deviceInfo;
 	}

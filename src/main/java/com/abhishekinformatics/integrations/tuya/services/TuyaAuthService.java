@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.services;
+package com.abhishekinformatics.integrations.tuya.services;
 
 import org.springframework.stereotype.Service;
 

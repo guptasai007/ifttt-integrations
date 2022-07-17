@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.dtos;
+package com.abhishekinformatics.integrations.tuya.dtos;
 
 import java.io.Serializable;
 

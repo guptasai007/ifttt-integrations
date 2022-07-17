@@ -1,9 +1,9 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.services;
+package com.abhishekinformatics.integrations.tuya.services;
 
 import org.springframework.stereotype.Service;
 
-import com.abhishekinformatics.integrations.tuyaintegrations.dtos.TuyaDeviceCommand;
-import com.abhishekinformatics.integrations.tuyaintegrations.dtos.TuyaDeviceInfo;
+import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceCommand;
+import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceInfo;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 @Service

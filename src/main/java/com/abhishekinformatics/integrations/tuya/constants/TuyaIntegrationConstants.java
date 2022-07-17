@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuyaintegrations.services.constants;
+package com.abhishekinformatics.integrations.tuya.constants;
 
 public class TuyaIntegrationConstants {
 	public static final String EMPTY_BODY_HASH = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855";
