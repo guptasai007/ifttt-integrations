@@ -10,4 +10,7 @@ public class TuyaIntegrationConstants {
 	public static final String ACCESS_TOKEN_KEY = "access_token";
 	public static final String EXPIRES_IN_KEY = "expire_time";
 	public static final String DEVICE_ID_URI_PARAM = "device_id";
+	public static final String SWITCH_LED_COMMAND = "switch_led";
+	public static final String CHANGE_WORK_MODE_COMMAND = "work_mode";
+
 }
