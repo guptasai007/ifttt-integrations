@@ -1,1 +1,1 @@
-web: java jar ifttt-integrations 0.0.1-SNAPSHOT.jar
+web: java -jar ifttt-integrations-0.0.1-SNAPSHOT.jar com.abhishekinformatics.iftttintegrations.IftttIntegrationsApplication.main(String[])

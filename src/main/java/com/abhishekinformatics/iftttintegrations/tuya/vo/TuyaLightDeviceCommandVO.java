@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.tuya.vo;
+package com.abhishekinformatics.iftttintegrations.tuya.vo;
 
 import java.io.Serializable;
 

@@ -1,13 +1,13 @@
-package com.abhishekinformatics.integrations.tuya.utils;
+package com.abhishekinformatics.iftttintegrations.tuya.utils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceCommand;
-import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceDataPoint;
-import com.abhishekinformatics.integrations.tuya.vo.TuyaLightDeviceCommandVO;
+import com.abhishekinformatics.iftttintegrations.tuya.dtos.TuyaDeviceCommand;
+import com.abhishekinformatics.iftttintegrations.tuya.dtos.TuyaDeviceDataPoint;
+import com.abhishekinformatics.iftttintegrations.tuya.vo.TuyaLightDeviceCommandVO;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

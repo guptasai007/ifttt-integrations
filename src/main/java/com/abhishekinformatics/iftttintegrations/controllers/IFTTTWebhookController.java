@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations.controllers;
+package com.abhishekinformatics.iftttintegrations.controllers;
 
 import java.util.Map;
 
@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.abhishekinformatics.integrations.tuya.constants.TuyaIntegrationConstants;
-import com.abhishekinformatics.integrations.tuya.dtos.TuyaDeviceInfo;
-import com.abhishekinformatics.integrations.tuya.services.TuyaAuthService;
-import com.abhishekinformatics.integrations.tuya.services.impl.TuyaLightDeviceControlServiceImpl;
-import com.abhishekinformatics.integrations.tuya.utils.TuyaDeviceCommandUtils;
-import com.abhishekinformatics.integrations.tuya.vo.TuyaLightDeviceCommandVO;
+import com.abhishekinformatics.iftttintegrations.tuya.constants.TuyaIntegrationConstants;
+import com.abhishekinformatics.iftttintegrations.tuya.dtos.TuyaDeviceInfo;
+import com.abhishekinformatics.iftttintegrations.tuya.services.TuyaAuthService;
+import com.abhishekinformatics.iftttintegrations.tuya.services.impl.TuyaLightDeviceControlServiceImpl;
+import com.abhishekinformatics.iftttintegrations.tuya.utils.TuyaDeviceCommandUtils;
+import com.abhishekinformatics.iftttintegrations.tuya.vo.TuyaLightDeviceCommandVO;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

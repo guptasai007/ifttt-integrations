@@ -1,4 +1,4 @@
-package com.abhishekinformatics.integrations;
+package com.abhishekinformatics.iftttintegrations;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootApplication
-public class MediahomeIntegrationsApplication {
+public class IftttIntegrationsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MediahomeIntegrationsApplication.class, args);
+		SpringApplication.run(IftttIntegrationsApplication.class, args);
 	}
 
 	@Bean("restTemplate")
