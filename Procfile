@@ -1,1 +1,1 @@
-web: java -cp ifttt-integrations-0.0.1-SNAPSHOT.jar -Dloader.main=com.abhishekinformatics.iftttintegrations.IftttIntegrationsApplication org.springframework.boot.loader.PropertiesLauncher
+web: java -cp target/ifttt-integrations-0.0.1-SNAPSHOT.jar -Dloader.main=com.abhishekinformatics.iftttintegrations.IftttIntegrationsApplication org.springframework.boot.loader.PropertiesLauncher
