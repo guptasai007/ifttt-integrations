@@ -23,5 +23,4 @@ public class IftttIntegrationsApplication {
 	public ObjectMapper objectMapper() {
 		return new ObjectMapper();
 	}
-
 }
